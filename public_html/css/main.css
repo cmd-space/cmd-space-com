@@ -1,0 +1,30 @@
+.masthead-brand {
+	display: inline-block;
+	margin-right: 50%;
+}
+
+nav {
+	display: inline-block;
+}
+
+.inner {
+	background-color: #2C3E50;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav li a {
+	display: inline;
+	color: #ffffff;
+}
+
+.cover-container {
+	background-color: #18BC9C;
+	color: #ffffff;
+}
+
+h1, h2, h3, p {
+	margin-left: 5%;
+}
