@@ -50,11 +50,13 @@
 					<h2>if (Persona == 'exists') {</h2>
 					<p>Name: Mark Zuckerberg</p>
 					<p>Age: 32</p>
-					<p>Job: Chairman and CEO of Facebook</p>
+					<p>Occupation: Chairman and CEO of Facebook</p>
 					<p>Technology: 2017 Macbook Pro 15" running OS X 10.12.2 Sierra</p>
-					<p>Attitude: to find the right web developer to help create the newest addition to Facebook</p>
-					<p>Scenario: Mark Zuckerberg has been bombarded with resumes since posting his latest opening at Facebook. He decides to do a random search on his favorite search engine for 'best aspiring web developer of 2017' and just so happens to stumble across cmd-space.com. :D His interest is piqued when he notices that Bootstrap is poorly integrated, and the color scheme was pulled from a Bootstrap template from startbootstrap.com, which clearly has a greater grasp of CSS than this website developer. Regardless of the flaws, Zuckerberg has a strong feeling that this web developer has some potential, and with a little mentoring and guidance can become a great developer. Mark Zuckerberg then fills out his information within the provided contact form, and verifies that he is not, in fact, a robot and hits submit. Mark then crosses his fingers and hopes that this web developer, Mason Crane, will contact him soon.</p>
+					<p>Goal: to find the right web developer to help create the newest addition to Facebook</p>
+					<p>Frustrations: vanilla resumes from every developer that has applied to the position so far</p>
 					<h2>}</h2>
+					<h2>Use Case (no more nerdy headers)</h2>
+					<p>It's March 7th, 2017 at 3:29pm PST, and Mark Zuckerberg is bored out of his mind looking at the endless supply of resumes on his Macbook Pro 15" running OS X 10.12.2 Sierra, and leaning back in his chair at Facebook HQ. Zuckerberg has been bombarded with resumes since posting his latest opening at Facebook. He decides to do a random search on his favorite search engine for 'best aspiring web developer of 2017' and just so happens to stumble across cmd-space.com. :D His interest is piqued when he notices that Bootstrap is poorly integrated, and the color scheme was pulled from a Bootstrap template from startbootstrap.com, which clearly has a greater grasp of CSS than this website developer. Regardless of the flaws, Zuckerberg has a strong feeling that this web developer has some potential, and with a little mentoring and guidance can become a great developer. Zuckerberg wants to make sure that his hunch is correct, so he uses the GitHub link on the homepage to inspect this web developer's work. Mark Zuckerberg then fills out his information within the provided contact form, and verifies that he is not, in fact, a robot and hits submit. Mark then crosses his fingers and hopes that this web developer, Mason Crane, will contact him soon.</p>
 				</div>
 			</div>
 		</div>

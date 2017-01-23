@@ -20,11 +20,15 @@ nav {
 	color: #ffffff;
 }
 
+.nav li a:hover {
+	background-color: #18BC9C;
+}
+
 .cover-container {
 	background-color: #18BC9C;
 	color: #ffffff;
 }
 
 h1, h2, h3, p {
-	margin-left: 5%;
+	padding: 1% 5%;
 }
