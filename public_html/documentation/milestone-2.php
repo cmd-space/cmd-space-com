@@ -42,6 +42,9 @@
 					<main>
 						<h2>Content strategy</h2>
 						<p>This first section is optional, but if I end up doing some freelance work during DDCBC I would really like to request testimonials from my clients and showcase them at the top of my PWP. If I get any testimonials during the bootcamp I think I'll only showcase one or two, and only if they represent my ability to improve the client's business, life, etc to really get across my value to potential clients/hiring managers in the future. The next section after the optional testimonial section will most likely be a brief overview of what I offer as a web developer and designer (features) and then immediately go into the benefits that I offer as a web developer and designer. The third section will be a brief, and non-threatening 'call to action' requesting that they get in touch if they want to discuss a project.</p>
+						<h2>Wireframes</h2>
+						<img src="images/pwp.png" alt="desktop wireframe" class="img-responsive center-block">
+						<img src="images/pwp%20mobile.png" alt="mobile wireframe" class="img-responsive center-block">
 					</main>
 				</div>
 			</div>
