@@ -41,12 +41,34 @@ h1, h2, h3, p {
 	padding: 1% 5%;
 }
 
+.color-submit {
+	background-color: #2C3E50;
+	color: #ffffff;
+}
+
+.placeholder-slider {
+	background-color: #000000;
+	height: 35rem;
+	width: 65rem;
+}
+
 .circular {
 	margin: .5rem .5rem;
 	background-color: #004dff;
 	-webkit-border-radius: 1rem;
 	-moz-border-radius: 1rem;
 	border-radius: 1rem;
+}
+
+#bottom-media {
+	height: 6rem;
+}
+
+#mcwd {
+	height: 25%;
+	width: 25%;
+	border: 2px solid #2C3E50;
+	border-radius: 50rem;
 }
 /* below references: https://css-tricks.com/almanac/properties/a/animation/ */
 /*.circular {*/
