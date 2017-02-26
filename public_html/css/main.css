@@ -1,8 +1,8 @@
-html {
-	background-color: #2C3E50;
-}
+/*html {*/
+	/*background-color: #2C3E50;*/
+/*}*/
 
-body {
+body, header, main {
 	background-color: #18BC9C;
 }
 
@@ -40,3 +40,27 @@ nav {
 h1, h2, h3, p {
 	padding: 1% 5%;
 }
+
+.circular {
+	margin: .5rem .5rem;
+	background-color: #004dff;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	border-radius: 1rem;
+}
+/* below references: https://css-tricks.com/almanac/properties/a/animation/ */
+/*.circular {*/
+	/*-webkit-animation: 3s ease-in 1s slidein;*/
+	/*-moz-animation:    3s ease-in 1s slidein;*/
+	/*-o-animation:      3s ease-in 1s slidein;*/
+	/*animation: 3s ease-in 1s slidein;*/
+/*}*/
+
+/*@keyframes pulse {*/
+	/*0% {*/
+		/*background-color: #001F3F;*/
+	/*}*/
+	/*100% {*/
+		/*background-color: #FF4136;*/
+	/*}*/
+/*}*/

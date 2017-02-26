@@ -31,7 +31,7 @@
 							<nav>
 								<ul class="nav masthead-nav">
 									<li><a href="https://bootcamp-coders.cnm.edu/~mcrane2/cmd-space-com/public_html/">home</a></li>
-									<li class="active"><a href="#">documentation</a></li>
+									<li class="active"><a href="/documentation/milestone-2.php">documentation</a></li>
 								</ul>
 							</nav>
 						</div>
