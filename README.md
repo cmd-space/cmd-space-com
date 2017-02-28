@@ -29,6 +29,8 @@ What is Mark's favorite search engine? Is it IE? Because that's gonna be annoyin
 
 
 
+Milestone 2b 
+
 ## Milestone 2 Feedback
 
 Great job on directory structure, as well as your HTML and your indentation. No issues there.
@@ -44,3 +46,6 @@ You may also want to consider adding social media icons to your site so clients 
 
 
 ### Overall, you've done a great job, I just feel like you can do more with this project. Think of ways to make your site more interesting. Then again, maybe I'm wrong and just not seeing the possibilities with what you've presented. Either way, you've passed Milestone 2a in Tier IV. Good job.
+
+
+### Milestone 2b: tier IV
