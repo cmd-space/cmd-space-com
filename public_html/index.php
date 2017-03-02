@@ -19,8 +19,28 @@
 		<link rel="stylesheet" href="css/main.css">
 		<!--	font awesome cdn	-->
 		<script src="https://use.fontawesome.com/334aa750b2.js"></script>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!--		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!--	slick slider cdn for js	-->
+		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+		<!-- jQuery Form, Validate, Additional Methods -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js" type="text/javascript"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 		<!--	slick slider cdn for css	-->
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+		<!--	main js file -->
+		<script src="js/main.js"></script>
 	</head>
 	<body>
 		<div class="site-wrapper">
@@ -106,8 +126,18 @@
 											<textarea class="form-control" name="contact-textarea" id="contact-textarea" cols="30" rows="10" placeholder="your message goes here..." required></textarea>
 										</div>
 
+										<!--	Google reCAPTCHA -->
+										<div class="g-recaptcha" data-sitekey="6LcpdBcUAAAAAMRMZDc-7pGMwurb3FpwpsL6FhYc"></div>
+
 										<button class="btn color-submit">Send!</button>
 									</form>
+								</div>
+							</div>
+
+							<!--empty area for form error/success output-->
+							<div class="row">
+								<div class="col-xs-12">
+									<div id="output-area"></div>
 								</div>
 							</div>
 
@@ -131,14 +161,5 @@
 				</div>
 			</div>
 		</div>
-
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<!--		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<!--	slick slider cdn for js	-->
-		<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-		<script src="js/main.js"></script>
 	</body>
 </html>
