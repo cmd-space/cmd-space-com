@@ -128,7 +128,7 @@
 
 										<div class="form-group">
 											<label for="contact-textarea">Message</label>
-											<textarea class="form-control" name="contact-textarea" id="contact-textarea" cols="30" rows="10" placeholder="your message goes here..."></textarea>
+											<textarea class="form-control" name="contact-message" id="contact-textarea" cols="30" rows="10" placeholder="your message goes here..."></textarea>
 										</div>
 
 										<!--	Google reCAPTCHA -->
