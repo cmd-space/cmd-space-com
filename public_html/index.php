@@ -109,7 +109,7 @@
 							<div class="row">
 								<div class="col-md-3"></div>
 								<div class="col-md-6">
-									<form id="contact-form">
+									<form id="contact-form" action="php/mailer.php" method="post">
 
 										<div class="form-group">
 											<label for="contact-name">Name</label>
