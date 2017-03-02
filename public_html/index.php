@@ -113,22 +113,22 @@
 
 										<div class="form-group">
 											<label for="contact-name">Name</label>
-											<input class="form-control" type="text" id="contact-name" name="contact-name" placeholder="your name...">
+											<input class="form-control" type="text" id="contact_name" name="contact_name" placeholder="your name...">
 										</div>
 
 										<div class="form-group">
 											<label for="contact-email">Email</label>
-											<input class="form-control" type="email" id="contact-email" name="contact-email" placeholder="your email...">
+											<input class="form-control" type="email" id="contact_email" name="contact_email" placeholder="your email...">
 										</div>
 
 										<div class="form-group">
 											<label for="contact-subject">Subject</label>
-											<input class="form-control" type="text" id="contact-subject" name="contact-subject" placeholder="subject...">
+											<input class="form-control" type="text" id="contact_subject" name="contact_subject" placeholder="subject...">
 										</div>
 
 										<div class="form-group">
 											<label for="contact-textarea">Message</label>
-											<textarea class="form-control" name="contact-message" id="contact-textarea" cols="30" rows="10" placeholder="your message goes here..."></textarea>
+											<textarea class="form-control" name="contact_message" id="contact_message" cols="30" rows="10" placeholder="your message goes here..."></textarea>
 										</div>
 
 										<!--	Google reCAPTCHA -->
