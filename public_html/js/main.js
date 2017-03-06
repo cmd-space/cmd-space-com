@@ -29,11 +29,8 @@ $(document).ready(function(){
 				required: true
 			},
 			contact_email: {
-				contact_email: true,
+				email: true,
 				required: true
-			},
-			contact_subject: {
-				maxlength: 42
 			},
 			contact_message: {
 				required: true,

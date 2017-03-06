@@ -1,9 +1,39 @@
-/*html {*/
-	/*background-color: #2C3E50;*/
-/*}*/
+@media(max-width:767px) {
+	.social-icons>div>a {
+		padding-right: 1rem;
+	}
+	.social-icons>div {
+		display: block;
+		padding-top: .75rem;
+	}
+	h1>.golden {
+		display: block;
+	}
+	.inner>.masthead-brand {
+		display: inline-block;
+		margin-right: 35%;
+	}
+	#mcwd {
+		/*height: auto;*/
+		width: 40%;
+		min-width: 195px;
+	}
+}
+
+.masthead {
+	margin-top: -1.3rem;
+}
+
+.social-icons>div {
+	display: inline-block;
+}
+
+.social-icons>div>a {
+	padding-right: .75rem;
+}
 
 body, header, main {
-	background-color: #18BC9C;
+	background-color: #328CC1;
 }
 
 .masthead-brand {
@@ -16,7 +46,7 @@ nav {
 }
 
 .inner {
-	background-color: #2C3E50;
+	background-color: #0B3C5D;
 }
 
 .nav li {
@@ -29,11 +59,11 @@ nav {
 }
 
 .nav li a:hover {
-	background-color: #18BC9C;
+	background-color: #328CC1;
 }
 
 .cover-container {
-	background-color: #18BC9C;
+	background-color: #328CC1;
 	color: #ffffff;
 }
 
@@ -42,8 +72,13 @@ h1, h2, h3, p {
 }
 
 .color-submit {
-	background-color: #2C3E50;
+	background-color: #1D2731;
 	color: #ffffff;
+	margin-top: .75rem;
+}
+
+.color-submit:hover {
+	color: #D9B310;
 }
 
 .placeholder-slider {
@@ -65,10 +100,13 @@ h1, h2, h3, p {
 }
 
 #mcwd {
-	height: 25%;
-	width: 25%;
+	height: auto;
+	width: 30%;
 	border: 2px solid #2C3E50;
-	border-radius: 50rem;
+}
+
+.golden {
+	color: #D9B310;
 }
 /* below references: https://css-tricks.com/almanac/properties/a/animation/ */
 /*.circular {*/

@@ -53,11 +53,19 @@
 						<div class="inner">
 							<h3 class="masthead-brand">cmd-space</h3>
 							<nav>
-								<ul class="nav masthead-nav">
-									<li class="active"><a href="https://bootcamp-coders.cnm.edu/~mcrane2/cmd-space-com/public_html/">home</a></li>
+								<ul class="nav masthead-nav hidden-sm hidden-xs">
+									<li class="active"><a href="https://cmd-space.com">home</a></li>
 									<li><a href="#contact-me">contact</a></li>
-									<li><a href="https://bootcamp-coders.cnm.edu/~mcrane2/resume/" target="_blank">resum&eacute;</a></li>
+									<li><a href="documentation/images/MasonCraneResume.pdf" download="MasonCraneResume.pdf">resum&eacute;</a></li>
 								</ul>
+								<li class="dropdown visible-xs-inline visible-sm-inline">
+									<a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+									<ul class="dropdown-menu">
+										<li class="active"><a href="https://cmd-space.com">home</a></li>
+										<li><a href="#contact-me">contact</a></li>
+										<li><a href="https://bootcamp-coders.cnm.edu/~mcrane2/resume/" target="_blank">resum&eacute;</a></li>
+									</ul>
+								</li>
 							</nav>
 						</div>
 					</div>
@@ -65,8 +73,8 @@
 						<header>
 							<div class="row">
 								<div class="col-xs-12">
-									<h1 class="text-center">Mason Crane Web Developer</h1>
-									<img src="documentation/images/Mason-Crane-Web-Developer.jpg" alt="Mason Crane Web Developer" id="mcwd" class="img-responsive center-block">
+									<h1 class="text-center">Mason Crane <span class="golden">Web Developer</span></h1>
+									<img src="documentation/images/Mason-Crane-Web-Developer.jpg" alt="Mason Crane Web Developer" id="mcwd" class="center-block img-circle">
 									<h2 class="text-center">You stay classy, Albuquerque!</h2>
 								</div>
 							</div>
@@ -77,19 +85,10 @@
 							<!--							<div><div class="image"><img src="documentation/images/pwp.png" alt="placeholder"/></div></div>-->
 							<!--							<div><div class="image"><img src="documentation/images/pwp%20mobile.png" alt="placeholder2"/></div></div>-->
 							<!--						</div>-->
-							<div class="row">
-								<div class="col-xs-12">
-									<!--	placeholder for slider	-->
-									<img src="documentation/images/pwp.png" alt="stuffs" class="placeholder-slider center-block">
-									<p class="text-center">Above is a placeholder for the eventual slider</p>
-								</div>
-							</div>
 
 							<div class="row">
 								<div class="col-xs-12">
-									<p>I'm sorry, Morty. It's a bummer. In reality you're as dumb as they come. I just wanna die! Snuffles was my slave name, you can call me snowball because my fur is pretty and white. Puh rum pum pow!</p>
-									<p>Oh, wow. That's an intense line of questioning, Snuffles Awww, bitch! Allahu blehhhh Akbar! Awww, it's you guys!</p>
-									<p>You're missing the point Morty. Why would he drive a smaller toaster with wheels? I mean, does your car look like a smaller version of your house? No. Alien Invasion Tomato Monster Mexican Armada Brothers Who Are Just Regular Brothers Running In A Van From An Asteroid And All Sorts Of Things: The Movie. I know the two of you are very different from each other in a lot of ways, but you have to understand that as far as Grandpa's concerned, you're both pieces of shit! Yeah. I can prove it mathematically. Actually, l-l-let me grab my whiteboard. This has been a long time coming, anyways. It probably has space aids.</p>
+									<p>This will include some cool stuff that will nudge you toward thinking that I'm the web developer to handle all your web dev and design needs. :)</p>
 								</div>
 							</div>
 
@@ -152,11 +151,15 @@
 									<h4 class="text-right">Get in touch:</h4>
 								</div>
 
-								<div class="col-xs-5">
-									<a href="https://www.facebook.com/mason.crane" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-									<a href="https://twitter.com/mecx" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-									<a href="https://www.linkedin.com/in/masoncr/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-									<a href="https://github.com/cmd-space" target="_blank"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+								<div class="col-xs-5 social-icons">
+									<div>
+										<a href="https://www.facebook.com/mason.crane" target="_blank"><i class="fa fa-facebook-square fa-3x golden" aria-hidden="true"></i></a>
+										<a href="https://twitter.com/mecx" target="_blank"><i class="fa fa-twitter-square fa-3x golden" aria-hidden="true"></i></a>
+									</div>
+									<div>
+										<a href="https://www.linkedin.com/in/masoncr/" target="_blank"><i class="fa fa-linkedin-square fa-3x golden" aria-hidden="true"></i></a>
+										<a href="https://github.com/cmd-space" target="_blank"><i class="fa fa-github-square fa-3x golden" aria-hidden="true"></i></a>
+									</div>
 								</div>
 							</div>
 
