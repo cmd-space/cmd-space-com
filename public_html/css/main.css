@@ -4,6 +4,13 @@
 	position: absolute;
 }
 
+.grey {
+	background-color: #1D2731;
+	opacity: .75;
+	padding: 2rem 1rem;
+	border-radius: 1rem;
+}
+
 @media(max-width:1032px) {
 	.menu-xs {
 		right: 5rem;
@@ -35,6 +42,10 @@
 	h1>.golden {
 		display: block;
 	}
+	.grey {
+		padding-left: 33%;
+		margin: 1rem 2rem;
+	}
 	/*.inner>.masthead-brand {*/
 		/*display: inline-block;*/
 		/*margin-right: 48%;*/
@@ -56,6 +67,10 @@
 		right: 5rem;
 		top: .25rem;
 		position: absolute;
+	}
+	.grey {
+		padding-left: 22%;
+		margin: 1rem 2rem;
 	}
 }
 
@@ -114,7 +129,7 @@ nav {
 	color: #ffffff;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
 	padding: 1% 5%;
 }
 
@@ -156,6 +171,9 @@ h1, h2, h3, p {
 	color: #D9B310;
 }
 
+.dropdown-menu {
+	background-color: #328CC1;
+}
 /* below references: https://css-tricks.com/almanac/properties/a/animation/ */
 /*.circular {*/
 	/*-webkit-animation: 3s ease-in 1s slidein;*/

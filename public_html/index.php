@@ -58,14 +58,16 @@
 									<li><a href="#contact-me">contact</a></li>
 									<li><a href="documentation/images/MasonCraneResume.pdf" download="MasonCraneResume.pdf">resum&eacute;</a></li>
 								</ul>
-								<li class="dropdown visible-xs-inline visible-sm-inline nav navbar-nav menu-xs">
-									<a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
-									<ul class="dropdown-menu">
-										<li class="active"><a href="https://cmd-space.com">home</a></li>
-										<li><a href="#contact-me">contact</a></li>
-										<li><a href="documentation/images/MasonCraneResume.pdf" download="MasonCraneResume.pdf">resum&eacute;</a></li>
-									</ul>
-								</li>
+								<ul>
+									<li class="dropdown visible-xs-inline visible-sm-inline nav navbar-nav menu-xs">
+										<a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+										<ul class="dropdown-menu">
+											<li class="active"><a href="https://cmd-space.com">home</a></li>
+											<li><a href="#contact-me">contact</a></li>
+											<li><a href="documentation/images/MasonCraneResume.pdf" download="MasonCraneResume.pdf">resum&eacute;</a></li>
+										</ul>
+									</li>
+								</ul>
 							</nav>
 						</div>
 					</div>
@@ -88,7 +90,79 @@
 
 							<div class="row">
 								<div class="col-xs-12">
-									<p>This will include some cool stuff that will nudge you toward thinking that I'm the web developer to handle all your web dev and design needs. :)</p>
+									<h2 class="text-center">a bit about me</h2>
+									<h4 class="text-center golden">Solutions, customization and a smiling face are just a few of the reasons you'll enjoy working with me</h4>
+									<h3 class="text-center">experience</h3>
+								</div>
+							</div>
+
+							<div class="row grey">
+								<div class="col-sm-3">
+									<ul>
+										<li>
+											LAMP Stack
+											<ul>
+												<li>PHP</li>
+												<li>MySQL</li>
+												<li>Linux</li>
+												<li>Apache</li>
+												<li>PHPUnit</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="col-sm-3">
+									<ul>
+										<li>
+											Front End Development
+												<ul>
+													<li>HTML5</li>
+													<li>CSS3</li>
+													<li>Twitter Bootstrap</li>
+													<li>Angular 2</li>
+													<li>Javascript</li>
+													<li>JQuery</li>
+													<li>AJAX</li>
+													<li>WordPress</li>
+												</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="col-sm-3">
+									<ul>
+										<li>
+											MEAN Stack
+											<ul>
+												<li>JSON</li>
+												<li>NodeJS</li>
+												<li>ExpressJS</li>
+												<li>MongoDB</li>
+												<li>Mongoose</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="col-sm-3">
+									<ul>
+										<li>
+											Marketing & Analytics
+											<ul>
+												<li>Google Analytics</li>
+												<li>Facebook Ads</li>
+												<li>Google AdWords</li>
+												<li>SEO</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-xs-12">
+									<h3 class="text-center">passion</h3>
+									<p>There's almost nothing more satisfying than creating something. Whether that involves building something physical with your hands or creating something of value in the virtual realm.</p>
+									<p><span class="golden">Creation is power</span>, which requires <span class="golden">knowledge, experience and creativity.</span> It takes a lot of forethought, analysis and planning to outline the scope of work, draw the blueprints and physically build a structure. Programming involves stages similar to the process of building a structure. Surveying, analyzing, planning, creating blueprints and finally building the structure have counterparts in the process of planning and programming software.</p>
+									<p>The finished object is typically what people see when it comes to structures and software. Most people do not see the intricate details involved in creating. The details and the inner workings of software are like glorious stepping stones of passion, which lead to the creation as a whole. If a stepping stone is out of order or missing completely the end result is a partially working or completely broken object. <span class="golden">My passion lies in placing the stepping stones that lead to a complete, fully functioning and beautiful creation.</span></p>
 								</div>
 							</div>
 
@@ -111,22 +185,22 @@
 									<form id="contact-form" action="php/mailer.php" method="post">
 
 										<div class="form-group">
-											<label for="contact-name">Name</label>
+											<label for="contact_name">Name</label>
 											<input class="form-control" type="text" id="contact_name" name="contact_name" placeholder="your name...">
 										</div>
 
 										<div class="form-group">
-											<label for="contact-email">Email</label>
+											<label for="contact_email">Email</label>
 											<input class="form-control" type="email" id="contact_email" name="contact_email" placeholder="your email...">
 										</div>
 
 										<div class="form-group">
-											<label for="contact-subject">Subject</label>
+											<label for="contact_subject">Subject</label>
 											<input class="form-control" type="text" id="contact_subject" name="contact_subject" placeholder="subject...">
 										</div>
 
 										<div class="form-group">
-											<label for="contact-textarea">Message</label>
+											<label for="contact_message">Message</label>
 											<textarea class="form-control" name="contact_message" id="contact_message" cols="30" rows="10" placeholder="your message goes here..."></textarea>
 										</div>
 
