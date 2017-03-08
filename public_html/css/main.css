@@ -1,3 +1,29 @@
+.menu-xs {
+	right: 5rem;
+	top: 2.2rem;
+	position: absolute;
+}
+
+@media(max-width:1032px) {
+	.menu-xs {
+		right: 5rem;
+		top: 2rem;
+		position: absolute;
+	}
+	/*.inner>.masthead-brand {*/
+		/*display: inline-block;*/
+		/*margin-right: 45%;*/
+	/*}*/
+}
+
+@media(max-width:991px) {
+	.menu-xs {
+		right: 5rem;
+		top: 1.3rem;
+		position: absolute;
+	}
+}
+
 @media(max-width:767px) {
 	.social-icons>div>a {
 		padding-right: 1rem;
@@ -9,16 +35,33 @@
 	h1>.golden {
 		display: block;
 	}
-	.inner>.masthead-brand {
-		display: inline-block;
-		margin-right: 35%;
-	}
+	/*.inner>.masthead-brand {*/
+		/*display: inline-block;*/
+		/*margin-right: 48%;*/
+	/*}*/
 	#mcwd {
 		/*height: auto;*/
 		width: 40%;
 		min-width: 195px;
 	}
+	.menu-xs {
+		right: 5rem;
+		top: .5rem;
+		position: absolute;
+	}
 }
+
+@media(max-width:550px) {
+	.menu-xs {
+		right: 5rem;
+		top: .25rem;
+		position: absolute;
+	}
+}
+
+/*.dropdown {*/
+	/*margin: 0 2rem 3rem 0;*/
+/*}*/
 
 .masthead {
 	margin-top: -1.3rem;
@@ -38,12 +81,16 @@ body, header, main {
 
 .masthead-brand {
 	display: inline-block;
-	margin-right: 50%;
+	/*margin-right: 55%;*/
 }
 
 nav {
 	display: inline-block;
 }
+
+/*.navbar-right {*/
+	/*margin: 4rem 3rem 0 0;*/
+/*}*/
 
 .inner {
 	background-color: #0B3C5D;
@@ -108,6 +155,7 @@ h1, h2, h3, p {
 .golden {
 	color: #D9B310;
 }
+
 /* below references: https://css-tricks.com/almanac/properties/a/animation/ */
 /*.circular {*/
 	/*-webkit-animation: 3s ease-in 1s slidein;*/

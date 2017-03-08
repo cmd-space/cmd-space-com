@@ -53,17 +53,17 @@
 						<div class="inner">
 							<h3 class="masthead-brand">cmd-space</h3>
 							<nav>
-								<ul class="nav masthead-nav hidden-sm hidden-xs">
+								<ul class="nav masthead-nav hidden-sm hidden-xs menu-xs">
 									<li class="active"><a href="https://cmd-space.com">home</a></li>
 									<li><a href="#contact-me">contact</a></li>
 									<li><a href="documentation/images/MasonCraneResume.pdf" download="MasonCraneResume.pdf">resum&eacute;</a></li>
 								</ul>
-								<li class="dropdown visible-xs-inline visible-sm-inline">
+								<li class="dropdown visible-xs-inline visible-sm-inline nav navbar-nav menu-xs">
 									<a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
 									<ul class="dropdown-menu">
 										<li class="active"><a href="https://cmd-space.com">home</a></li>
 										<li><a href="#contact-me">contact</a></li>
-										<li><a href="https://bootcamp-coders.cnm.edu/~mcrane2/resume/" target="_blank">resum&eacute;</a></li>
+										<li><a href="documentation/images/MasonCraneResume.pdf" download="MasonCraneResume.pdf">resum&eacute;</a></li>
 									</ul>
 								</li>
 							</nav>
