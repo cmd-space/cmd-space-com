@@ -47,5 +47,10 @@ You may also want to consider adding social media icons to your site so clients 
 
 ### Overall, you've done a great job, I just feel like you can do more with this project. Think of ways to make your site more interesting. Then again, maybe I'm wrong and just not seeing the possibilities with what you've presented. Either way, you've passed Milestone 2a in Tier IV. Good job.
 
-
 ### Milestone 2b: tier IV
+
+## Final Feedback
+
+Overall everything is awesome. I love the social media links at the bottom of the page for tie ins to your social media branding. I was a little surpised that you included facebook but love all of the articles you have posted. I feel like you could have acommplished more with PWP, but you meet all of the required parameters eaisly. While your form works and successfully sends mail, a console error is thrown when i enter text into. The resume download is also a nice touch. same with the simple experince table. Great job!! 
+
+### Milestone 3:tier IV
