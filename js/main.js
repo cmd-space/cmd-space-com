@@ -63,8 +63,8 @@ $(document).ready(function(){
 					$("#output-area").css("display", "");
 
 					// write the server's reply to the output area
-					$("#output-area").html(ajaxOutput);
-
+					// $("#output-area").html(ajaxOutput);
+					$('#thanks').show();
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
 						$("#contact-form")[0].reset();
