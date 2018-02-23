@@ -28,7 +28,7 @@ $(document).ready(function(){
 			contact_name: {
 				required: true
 			},
-			contact_email: {
+			_replyto: {
 				email: true,
 				required: true
 			},
